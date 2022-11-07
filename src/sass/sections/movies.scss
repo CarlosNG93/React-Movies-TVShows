@@ -1,0 +1,14 @@
+@import "../common/mixin.scss";
+@import "../common/variables.scss";
+
+.container-section {
+  background-color: $darkSmoke;
+  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+
+p {
+  color: $whiteGray;
+  font-family: $roboto;
+  font-weight: 300;
+}

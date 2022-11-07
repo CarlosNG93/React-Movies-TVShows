@@ -1,0 +1,38 @@
+@import "../common/mixin.scss";
+@import "../common/variables.scss";
+
+.youtube {
+  @mixin desktop {
+    height: 300px;
+  }
+  @mixin tablet {
+    height: 238px;
+  }
+  @mixin phone {
+    height: 194px;
+  }
+}
+
+.content-youtube {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.content-titles {
+  max-width: 375px;
+}
+
+.title,
+.subtitle {
+  color: $whiteGray;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+}
+.subtitle {
+  font-size: 14px;
+  margin: 8px 0 25px 0;
+}
+.title {
+  font-size: 15px;
+  margin-top: 10px;
+}

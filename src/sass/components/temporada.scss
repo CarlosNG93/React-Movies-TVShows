@@ -1,0 +1,56 @@
+@import "../common/mixin.scss";
+@import "../common/variables.scss";
+
+.temporada {
+  width: calc(33.3333% - 13.3333px);
+  margin-bottom: 20px;
+  padding: 6px;
+  @mixin desktop {
+    width: calc(33.3333%-33.3333px);
+  }
+  @mixin tablet {
+    width: calc(50% - 20px);
+  }
+  @mixin phone {
+    width: calc(100%);
+  }
+}
+.img {
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+.episodio {
+  font-size: 14px;
+  color: $lightBlue;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.title {
+  font-size: 16px;
+  color: $whiteGray;
+  margin: auto;
+}
+.paragraph {
+  color: $whiteGray;
+  font-size: 14px;
+  line-height: 20px;
+}
+.titles {
+  display: inline-flex;
+  margin-top: 20px;
+}
+.box-background {
+  background-color: $darkGray;
+  height: 242px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 1298px) {
+    height: 195px;
+  }
+}
+.fa-image {
+  font-size: 80px;
+}

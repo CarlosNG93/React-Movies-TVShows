@@ -10,68 +10,13 @@ const Footer = () => {
       <div className='names-box'>
         <h3>Designed and built by</h3>
         <div className='container-list'>
-          <ul>
-            <li>
-              <div>Rocío</div>
-              <div>Esteban</div>
-              <div>
-                <a
-                  href={`https://www.linkedin.com/in/rocio-esteban/`}
-                  className='links-footer'
-                >
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a
-                  href={`https://github.com/hrchioest`}
-                  className='links-footer'
-                >
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
-              </div>
-            </li>
-            <li>
-              <div>Dolores</div>
-              <div>Perez</div>
-              <div>
-                <a
-                  href={`https://www.linkedin.com/in/dolores-perez-laborda/`}
-                  className='links-footer'
-                >
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a
-                  href={`https://github.com/dperezlaborda`}
-                  className='links-footer'
-                >
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
-              </div>
-            </li>
-            <li>
-              <div>Giuliana</div>
-              <div>Cecchetto</div>
-              <div>
-                <a
-                  href={`https://www.linkedin.com/in/giuliana-cecchetto/`}
-                  className='links-footer'
-                >
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-                <a
-                  href={`https://github.com/giuli3022`}
-                  className='links-footer'
-                >
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
-              </div>
-            </li>
-          </ul>
+         
         </div>
       </div>
 
       <div className='rights-box'>
         <p>
-          ©2020 Ada 9° Generacion. All rights reserved
+          ©2022  All rights reserved
           <a
             target='_blank'
             href='https://jason.codes/cookie-policy/'

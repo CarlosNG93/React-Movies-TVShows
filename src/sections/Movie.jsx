@@ -18,7 +18,7 @@ const Movie = () => {
         link='/moviePopular/trending/page/1'
       />
       <ListCard
-        title='Peliculas con mejores críticas'
+        title='Películas con mejores críticas'
         limit={5}
         api={movieTopRated}
         type='movie'
